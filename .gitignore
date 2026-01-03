@@ -1,0 +1,14 @@
+# Ignorer le dossier de l'environnement virtuel (trop lourd et spécifique à ton PC)
+.venv/
+venv/
+
+# Ignorer le dossier des modèles (trop lourd pour GitHub)
+models/
+*.gguf
+
+# Ignorer les fichiers de configuration de l'éditeur (IntelliJ)
+.idea/
+
+# Ignorer les fichiers temporaires Python
+__pycache__/
+*.pyc
